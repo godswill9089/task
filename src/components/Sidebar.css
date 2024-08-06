@@ -1,0 +1,19 @@
+.line{
+    background-color: black;
+    width: 2px;
+    height: 40px;
+    border-right: 1px solid #9BE5C9
+}
+
+.text{
+    margin-left: 15px;
+    color: #9BE5C9;
+    font-size: 20px;
+}
+
+.get-started h1{
+    font-size: 12px;
+    margin-left: 22px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
