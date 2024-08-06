@@ -6,7 +6,7 @@ import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
 import { FaChevronDown } from 'react-icons/fa';
 
 const SidebarContainer = styled.div`
-  width: 250px;
+  width: 260px;
   height: 100vh;
   background-color: #062b30;
   color: white;
