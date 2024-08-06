@@ -68,9 +68,10 @@ const UserSection = styled.div`
   line-height:2rem;
 
   .dropdown-icon{
+    background: linear-gradient(0deg, #014345, #014345),linear-gradient(180deg, #014345 0%, #012223 100%);
     height:3rem;
     border-radius:100px;
-    width:30px;
+    width:40px;
     margin-top: .2rem;
   }
 `;

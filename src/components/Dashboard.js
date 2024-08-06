@@ -84,7 +84,7 @@ const Dashboard = () => {
                         <p>Welcome back to your dashboard, here’s an overview</p>
                     </div>
                     <RavenButton
-                        color='green-light'
+                        color='green-dark'
                         label="Create PIN"
                         onClick={openModal}
                         size="small"
