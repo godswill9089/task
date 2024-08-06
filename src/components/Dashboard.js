@@ -95,7 +95,7 @@ const Dashboard = () => {
                             visble={isModalOpen}
                             title='Create PIN'
                             onClick={closeModal}
-                            color="green-light"
+                            color="green-dark"
                             label="Click me"
                             size="small"
                             type="btn-cancel"
