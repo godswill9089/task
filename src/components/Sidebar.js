@@ -6,21 +6,21 @@ import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
 import { FaChevronDown } from 'react-icons/fa';
 
 const SidebarContainer = styled.div`
-  width: 260px;
+  width: 22%;
   height: 100vh;
   background-color: #062b30;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 2rem 0;
 `;
 
 const LogoContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
   align-items: center;
 
 `;
@@ -29,69 +29,62 @@ const LogoContainer = styled.div`
 const Logo = styled.img`
   width: 100px;
   height: auto;
-  margin-right: 10px;
+  margin-right: 2rem;
 `;
 
 const MenuContainer = styled.div`
   flex-grow: 1;
-  padding-left: 20px;
+  padding-left: 2rem;
 `;
 
 const MenuItem = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 10rem;
   font-size: 18px;
   cursor: pointer;
-  margin-bottom:35px;
+  margin-bottom:4rem;
 
   &:hover {
     color: #10b981;
   }
 
   svg {
-    margin-right: 10px;
+    margin-right: 1rem;
   }
 `;
 
 const UserSection = styled.div`
-  padding-left: 20px;
+  padding-left: 1rem;
   display: flex;
   justify-content: space-between;
   border: 0.5px solid #0B8376;
   padding-top:1rem;
   padding-bottom:1rem;
-  padding-right:2px;
-  margin-right:20px;
-  margin-left:4px;
+  padding-right:1rem;
+  margin-right:.5rem;
+  margin-left:1rem;
   border-radius:8px;
+  line-height:2rem;
 
   .dropdown-icon{
-    margin-right: 2px;
-    background-color:#0B8376;
-    height:20px;
+    height:3rem;
     border-radius:100px;
     width:30px;
-    margin-top:5px;
-    font-weight:100px;
+    margin-top: .2rem;
   }
 `;
 
 const UserName = styled.h4`
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
   font-size: 13px;
-   margin-top: 5px
+   margin-top: 0rem;
 `;
 
 const UserEmail = styled.p`
   font-size: 12px;
   color: #9ca3af;
-  margin-top: 0px
-`;
-
-const LiveMode = styled.div`
-  padding-left: 20px;
-  margin-top: 20px;
+  margin-top: 0rem;
 `;
 
 const Sidebar = () => {
@@ -139,13 +132,6 @@ const Sidebar = () => {
                     {/* Add more menu items as needed */}
                 </MenuContainer>
             </div>
-
-            <LiveMode>
-                <label>
-                    <input type="checkbox" />
-                    Live Mode
-                </label>
-            </LiveMode>
         </SidebarContainer>
     );
 };

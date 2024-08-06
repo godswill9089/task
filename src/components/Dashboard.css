@@ -7,6 +7,15 @@
 
 .input {
     margin-bottom: 30px;
+    line-height: 2.1rem;
+}
+
+.header-items{
+    line-height: 2.6rem;
+}
+
+.action-bar{
+    margin-top: 2rem;
 }
 
 .form-group__green-light .form-label {
@@ -18,7 +27,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    font-family: "Raleway", sans-serif !important;
+font-family: "Montserrat", sans-serif !important;
 }
 
 .modal-parent-wrap .raven-modal-content-wrap .close-box {
@@ -32,7 +41,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 5rem;
+    padding: 0 5rem ;
 }
 
 
@@ -115,13 +125,13 @@
 }
 
  .transaction-cards {
-    margin-top: 40px;
-    display: flex !important;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 4rem;
     row-gap: 2rem;
     flex-wrap: wrap;
-    padding: 2.4rem  2.4rem;
+    padding: 2.4rem 4rem 2.4rem;
 }
 
 @media screen and (max-width: 600px) {

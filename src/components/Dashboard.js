@@ -43,11 +43,10 @@ const DashboardContainer = styled.div`
 const MainContent = styled.div`
   flex-grow: 1;
   background-color: #f3f4f6;
-  padding: 20px;
 
   .header{
   font-size:16px;
-  margin-top:30px;
+  margin-top:rem;
   }
 `;
 
@@ -68,17 +67,19 @@ const Dashboard = () => {
         <DashboardContainer>
             <Sidebar />
             <MainContent>
-                <RavenActionBar
-                    actionText="Create PIN"
-                    className=""
-                    msg="Hey Emmanuel, kindly create your Transaction PIN"
-                    onAction={ openModal } 
-                    onCancel={function noRefCheck() { }}
-                    type="warning"
-                    visible
-                />
+                <div className='action-bar'>
+                    <RavenActionBar
+                        actionText="Create PIN"
+                        className=""
+                        msg="Hey Emmanuel, kindly create your Transaction PIN"
+                        onAction={openModal}
+                        onCancel={function noRefCheck() { }}
+                        type="warning"
+                        visible
+                    />
+               </div>
                 <div className='header-component'>
-                    <div>
+                    <div className='header-items'>
                         <h1 className='header'>Good Evening, Emmanuel</h1>
                         <p>Welcome back to your dashboard, here’s an overview</p>
                     </div>
@@ -86,7 +87,7 @@ const Dashboard = () => {
                         color='green-light'
                         label="Create PIN"
                         onClick={openModal}
-                        size="big"
+                        size="small"
                         type=""
                     />
                         <RavenModal

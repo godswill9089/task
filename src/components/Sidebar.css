@@ -1,19 +1,18 @@
 .line{
-    background-color: black;
-    width: 2px;
+    width: 2%;
     height: 40px;
     border-right: 1px solid #9BE5C9
 }
 
 .text{
-    margin-left: 15px;
+    margin-left: 1rem;
     color: #9BE5C9;
     font-size: 20px;
 }
 
 .get-started h1{
     font-size: 12px;
-    margin-left: 22px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-left: 2.3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
