@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import './Sidebar.css'
 import logo from '../assets/ravengreenlogo.png'
 import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
-import { FaChevronDown } from 'react-icons/fa';
+import chevron from '../assets/chevron-down.png'
 
 const SidebarContainer = styled.div`
   width: 22%;
@@ -20,7 +20,7 @@ const LogoContainer = styled.div`
   display: flex;
   align-items: center;
   margin-left: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   align-items: center;
 
 `;
@@ -71,7 +71,6 @@ const UserSection = styled.div`
     background: linear-gradient(0deg, #014345, #014345),linear-gradient(180deg, #014345 0%, #012223 100%);
     height:3rem;
     border-radius:100px;
-    width:35px;
     margin-top: .2rem;
   }
 `;
@@ -104,7 +103,7 @@ const Sidebar = () => {
                         <UserEmail>emmanuel@getravenbank.com</UserEmail>
                    </div>
                     <div className='dropdown-icon'>
-                        <FaChevronDown className='dropdown-icon' />
+                      <img src={chevron} className='dropdown-icon'/>
                     </div>
                 </UserSection>
 

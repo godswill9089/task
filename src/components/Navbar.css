@@ -68,14 +68,47 @@
     background-color: #f0f0f0;
 }
 
-.star-icon::before {
-    content: '';
-    font-size: 16px;
+.toggle-container {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.dark-mode-icon::before {
-    content: '🌙';
+.toggle-container.active {
+    background-color: #e0e0e0;
+    /* Change background color when active */
+}
+
+.toggle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-container.active .toggle-button {
+    transform: translateX(30px);
+    /* Move the button to the right */
+}
+
+.icon {
     font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.toggle-container.active .icon {
+    color: #ffca28;
+    /* Change icon color when active */
 }
 
 .profile-initials {
