@@ -113,9 +113,14 @@ const Sidebar = () => {
 
                 <div className='get-started'>
                     <h1>GET STARTED</h1>
-                </div>
-
-                
+               </div>
+               <div>
+            <div className='dasbord-text'>
+              <h1>
+                Dashboard
+              </h1>
+            </div> 
+              </div>
                 <MenuContainer>
                     <MenuItem>
                         <FiHome />
@@ -133,7 +138,6 @@ const Sidebar = () => {
                         <FiSettings />
                         Settings
                     </MenuItem>
-                    {/* Add more menu items as needed */}
                 </MenuContainer>
             </div>
         </SidebarContainer>
