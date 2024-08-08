@@ -113,8 +113,9 @@
 .profile-initials {
     background-color: #e0f7fa;
     color: #00695c;
-    padding: 10px 14px;
     border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
     font-weight: bold;
     font-size: 14px;
     display: flex;

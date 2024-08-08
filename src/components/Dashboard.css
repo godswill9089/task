@@ -7,15 +7,24 @@
 
 .input {
     margin-bottom: 30px;
-    line-height: 2.1rem;
+    line-height: 2.3rem;
 }
 
 .header-items{
-    line-height: 2.6rem;
+    line-height: 2.3rem;
 }
 
 .action-bar{
     margin-top: 1rem;
+}
+
+.action_bar__warning .cancel{
+    margin-right: 1rem !important;
+}
+
+.action_bar_show{
+    padding: 2rem 4rem !important;
+        max-height: 5rem !important;
 }
 
 .form-group__green-light .form-label {
@@ -42,7 +51,7 @@ font-family: "Montserrat", sans-serif !important;
     justify-content: space-between;
     align-items: center;
     margin-top: 6rem;
-    padding: 0 5rem ;
+    padding: 0 4.5rem ;
 }
 
 
@@ -125,10 +134,11 @@ font-family: "Montserrat", sans-serif !important;
 }
 
  .transaction-cards {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
     align-items: center;
-    row-gap: 2rem;
+    gap: 4rem;
     flex-wrap: wrap;
     padding: 2.4rem 4rem 2.4rem;
 }

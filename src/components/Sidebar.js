@@ -6,7 +6,7 @@ import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
 import chevron from '../assets/chevron-down.png'
 
 const SidebarContainer = styled.div`
-  width: 22%;
+  width: 20%;
   height: 100vh;
   background-color: #062b30;
   color: white;
@@ -25,17 +25,11 @@ const LogoContainer = styled.div`
 
 `;
 
-
-const Logo = styled.img`
-  width: 100px;
-  height: auto;
-  margin-right: 2rem;
-`;
-
 const MenuContainer = styled.div`
   flex-grow: 1;
-  padding-left: 2rem;
+  padding-left: 3rem;
   margin-top:3rem;
+  margin-right:4rem;
 `;
 
 const MenuItem = styled.div`
@@ -43,8 +37,8 @@ const MenuItem = styled.div`
   align-items: center;
   font-size: 13px;
   cursor: pointer;
-  padding-top:2rem;
-  padding-bottom:2rem;
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
   margin-bottom:1rem;
 
   &:hover {
@@ -65,38 +59,42 @@ const UserSection = styled.div`
   padding-top:1rem;
   padding-bottom:1rem;
   padding-right:1rem;
-  margin-right:.5rem;
-  margin-left:1rem;
+  margin-right:4rem;
+  margin-left:3rem;
   border-radius:8px;
   line-height:2rem;
 
   .dropdown-icon{
     background: linear-gradient(0deg, #014345, #014345),linear-gradient(180deg, #014345 0%, #012223 100%);
     height:3rem;
+    width:3rem;
     border-radius:100px;
-    margin-top: .2rem;
     color:white;
   }
 `;
 
 const UserName = styled.h4`
   margin-bottom: 0rem;
-  font-size: 13px;
+  font-size: 10px;
    margin-top: 0rem;
 `;
 
 const UserEmail = styled.p`
-  font-size: 12px;
+  font-size: 10px;
   color: #9ca3af;
   margin-top: 0rem;
 `;
+
+
 
 const Sidebar = () => {
     return (
         <SidebarContainer>
             <div>
                 <LogoContainer>
-                    <Logo src={logo} alt="RavenBank" />
+                   <div className='img-box'>
+                     <img src={logo} alt='' className='img'/>
+                   </div>
                     <div className='line'></div>
                     <h2 className='text'>Atlas</h2>
                 </LogoContainer>
@@ -106,9 +104,9 @@ const Sidebar = () => {
                         <UserName>Adeeko Emmanuel</UserName>
                         <UserEmail>emmanuel@getravenbank.com</UserEmail>
                    </div>
-                    <div className=''>
-                      <img src={chevron} className='dropdown-icon'/>
-                    </div>
+                   {/* <div className='dropdown-icon'>
+                      <img src={chevron} className='-icon'/>
+                    </div> */}
                 </UserSection>
 
                 <div className='get-started'>
