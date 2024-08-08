@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import '../components/Dashboard.css';
 import styled from 'styled-components';
 import CardTransactions from './CardTransactions';
@@ -42,7 +43,7 @@ const DashboardContainer = styled.div`
 
 const MainContent = styled.div`
   flex-grow: 1;
-  background-color: #f3f4f6;
+  background-color: ;
 
   .header{
   font-size:16px;
@@ -67,6 +68,7 @@ const Dashboard = () => {
         <DashboardContainer>
             <Sidebar />
             <MainContent>
+                <Navbar />
                 <div className='action-bar'>
                     <RavenActionBar
                         actionText="Create PIN"
