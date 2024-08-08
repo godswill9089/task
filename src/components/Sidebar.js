@@ -35,18 +35,21 @@ const Logo = styled.img`
 const MenuContainer = styled.div`
   flex-grow: 1;
   padding-left: 2rem;
+  margin-top:3rem;
 `;
 
 const MenuItem = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 10rem;
-  font-size: 18px;
+  font-size: 13px;
   cursor: pointer;
-  margin-bottom:4rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  margin-bottom:1rem;
 
   &:hover {
-    color: #10b981;
+    background: linear-gradient(269.91deg, rgba(255, 255, 255, 0.1) 22.13%, rgba(255, 255, 255, 0) 96.37%);
+    border-right: 5px solid white; 
   }
 
   svg {
@@ -72,6 +75,7 @@ const UserSection = styled.div`
     height:3rem;
     border-radius:100px;
     margin-top: .2rem;
+    color:white;
   }
 `;
 
@@ -102,7 +106,7 @@ const Sidebar = () => {
                         <UserName>Adeeko Emmanuel</UserName>
                         <UserEmail>emmanuel@getravenbank.com</UserEmail>
                    </div>
-                    <div className='dropdown-icon'>
+                    <div className=''>
                       <img src={chevron} className='dropdown-icon'/>
                     </div>
                 </UserSection>
