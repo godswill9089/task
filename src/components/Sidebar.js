@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import './Sidebar.css'
 import logo from '../assets/ravengreenlogo.png'
 import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
-import chevron from '../assets/chevron-down.png'
+import { Link } from 'react-router-dom';
 
 const SidebarContainer = styled.div`
   width: 20%;
@@ -122,11 +122,15 @@ const Sidebar = () => {
                 <MenuContainer>
                     <MenuItem>
                         <FiHome />
-                        Overview
+              <div className='link'>
+                <li><Link to="/">Overview</Link></li>
+                 </div>
                     </MenuItem>
                     <MenuItem>
                         <FiUser />
-                        Wallet
+              <div className='link'>
+                <li><Link to="/about">Balance</Link></li>
+                     </div>
                     </MenuItem>
                     <MenuItem>
                         <FiFileText />

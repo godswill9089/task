@@ -1,3 +1,10 @@
+.link a li{
+    list-style: none !important;
+}
+.link li{
+    list-style: none !important;
+}
+
 .img-box {
     width: 12rem;
     height: 3rem;

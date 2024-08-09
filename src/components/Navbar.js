@@ -14,12 +14,12 @@ const Navbar = () => {
         <div className="navbar">
             <div className="search-container">
                 <span className='search-icon'>
-                    <img src={ searchicon } />
+                    <img src={ searchicon } alt=''/>
                 </span>
                 <input type="text" placeholder="Search Atlas..." className="search-input" />
             </div>
             <div className="navbar-links">
-                <a href="#" className="api-docs">API Documentation <span className="external-link-icon"><img src={ icon2 } /></span></a>
+                <a href="/" className="api-docs">API Documentation <span className="external-link-icon"><img src={ icon2 } alt=''/></span></a>
                 <div className={`toggle-container ${isActive ? 'active' : ''}`} onClick={handleToggle}>
                     <div className="toggle-button">
                         <span className="icon">{isActive ? '🌙' : '✨'}</span>
