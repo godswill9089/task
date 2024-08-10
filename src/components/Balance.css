@@ -17,3 +17,112 @@
 .header{
     font-size: 16px !important;
 }
+.balance-header{
+    margin-top: 2rem;
+}
+.form-group__black-light .input-group {
+    width: 40% !important;
+    padding: 1rem !important;
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+.img-box{
+  width: 0rem !important;
+}
+.text{
+  margin-right: 1rem !important;
+}
+.filter-button {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 3rem 1rem; 
+    font-size: 16px;
+    color: #555; 
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .filter-button:hover {
+    background-color: #eaeaea; 
+  }
+  
+  .filter-button:focus {
+    outline: none;
+  }
+  
+  .filter-icon {
+    margin-left: 8px; 
+    width: 7rem; 
+    height: 2rem;
+    fill: #555; 
+    margin-top: 0.3rem;
+  }
+  
+  .export-button {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 3rem 1rem; 
+    width: 100%;
+    font-size: 16px;
+    color: #333; 
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.2s ease; 
+  }
+  
+  .export-button:hover {
+    background-color: #e2e2e2; 
+  }
+  
+  .export-button:focus {
+    outline: none; 
+  }
+  
+  .download-icon {
+    margin-left: 8px;
+    width: 7rem; 
+    height: 2rem;
+    fill: #333; 
+    margin-top: 0.3rem;
+  }
+
+  .table-body{
+    background-color: white;
+    padding: 1rem 0rem 1rem; 
+    margin: 0 4.5rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+  }
+  .table-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem ;
+    margin-top: 5rem;
+  }
+  .table-head tr{
+    /* padding: 2rem 0rem 2rem !important; */
+  }
+  .filter{
+    margin-right: 3rem;
+  }
+
+  .raven-table{
+    border: 1px solid  rgb(227, 221, 221);
+    margin: 0 2rem;
+  }
+  .raven-table .table-head{
+    border-radius: 4rem !important;
+  }
+  .table .table-head tr th, .table thead tr th{
+    padding: 3rem 0rem 3rem;
+  }

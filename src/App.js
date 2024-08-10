@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/about" element={<Balance />} />
+          <Route path="/balance" element={<Balance />} />
         </Routes>
       </Router>
     </>

@@ -6,7 +6,7 @@ import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const SidebarContainer = styled.div`
-  width: 20%;
+  // width: 20%;
   height: 100vh;
   background-color: #062b30;
   color: white;
@@ -28,7 +28,7 @@ const LogoContainer = styled.div`
 const MenuContainer = styled.div`
   flex-grow: 1;
   padding-left: 3rem;
-  margin-top:3rem;
+  margin-top:5rem;
   margin-right:4rem;
 `;
 
@@ -92,9 +92,9 @@ const Sidebar = () => {
         <SidebarContainer>
             <div>
                 <LogoContainer>
-                   <div className='img-box'>
+                   <figure className='img-box'>
                      <img src={logo} alt='' className='img'/>
-                   </div>
+                   </figure>
                     <div className='line'></div>
                     <h2 className='text'>Atlas</h2>
                 </LogoContainer>
@@ -129,7 +129,7 @@ const Sidebar = () => {
                     <MenuItem>
                         <FiUser />
               <div className='link'>
-                <li><Link to="/about">Balance</Link></li>
+                <li><Link to="/balance">Balance</Link></li>
                      </div>
                     </MenuItem>
                     <MenuItem>
