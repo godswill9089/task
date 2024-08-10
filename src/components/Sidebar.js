@@ -92,7 +92,7 @@ const Sidebar = () => {
         <SidebarContainer>
             <div>
                 <LogoContainer>
-                   <figure className='img-box'>
+                   <figure className='img-boxs'>
                      <img src={logo} alt='' className='img'/>
                    </figure>
                     <div className='line'></div>
