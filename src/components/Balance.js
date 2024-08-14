@@ -89,7 +89,7 @@ const Balance = () => {
                         >
                         <RavenTableRow
                             five={<div className="status-type-wrap false false false false false"><span>₦12,000,000.00</span></div>}
-                            four={<div className="type-wrap"><span>A₦12,000,000.00</span></div>}
+                            four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                             onRowClick={function noRefCheck(){}}
                             one={<div className="type-text-box">
                                 <div className='box'>

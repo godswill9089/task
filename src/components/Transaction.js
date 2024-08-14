@@ -104,13 +104,13 @@ const Transaction = () => {
                                 <img src={badge} alt=''></img>
                             </figure>
                         </div>}
-                        four={<div className="type-wrap"><span>A₦12,000,000.00</span></div>}
+                        four={<div className="type-wrap"><span>₦10.00</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
                          <img src={Avatargreen} alt='' className="text size"/>202303300238BHCJEDE
                         </div>}
                         three={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
-                        two="Deposit"
+                        two="Collection"
                         six="5 Sept, 2022 • 5:48PM"
                     />
                     <RavenTableRow
@@ -119,13 +119,13 @@ const Transaction = () => {
                                 <img src={failed} alt=''></img>
                             </figure>
                         </div>}
-                        four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
+                        four={<div className="type-wrap"><span>₦100</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
                          <img src={Avatargreen} alt='' className="text size" />202303300238BHCJEDE
                         </div>}
                         three={<div className="type-wrap"><span>₦12,00</span></div>}
-                        two="Deposit"
+                        two="Transfer"
                          six="5 Sept, 2022 • 5:48PM"
                     />
                     <RavenTableRow
@@ -134,13 +134,13 @@ const Transaction = () => {
                                 <img src={badge} alt=''></img>
                             </figure>
                         </div>}
-                        four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
+                        four={<div className="type-wrap"><span>₦200</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
                             <img src={Avatarred} alt='' className="text size"/>202303300238BHCJEDE
                             </div>}
                         three={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
-                        two="Deposit"
+                        two="Collection"
                          six="5 Sept, 2022 • 5:48PM"
                     />
                     <RavenTableRow
@@ -149,13 +149,13 @@ const Transaction = () => {
                                 <img src={badge} alt=''></img>
                             </figure>
                         </div>}
-                        four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
+                        four={<div className="type-wrap"><span>₦10.00</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
                          <img src={Avatarred} alt='' className="text size" />202303300238BHCJEDE
                         </div>}
                         three={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
-                        two="Deposit"
+                        two="Collection"
                          six="5 Sept, 2022 • 5:48PM"
                     />
                     </RavenTable>
