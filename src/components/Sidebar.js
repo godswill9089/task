@@ -6,30 +6,29 @@ import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const SidebarContainer = styled.div`
-  // width: 20%;
+width:20rem;
   height: 100vh;
   background-color: #062b30;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 1.2rem 0;
 `;
 
 const LogoContainer = styled.div`
   display: flex;
   align-items: center;
   margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
   align-items: center;
 
 `;
 
 const MenuContainer = styled.div`
   flex-grow: 1;
-  padding-left: 3rem;
-  margin-top:5rem;
-  margin-right:4rem;
+  margin-top:1.5rem;
+  padding-left:.5rem;
 `;
 
 const MenuItem = styled.div`
@@ -37,13 +36,12 @@ const MenuItem = styled.div`
   align-items: center;
   font-size: 13px;
   cursor: pointer;
-  padding-top:1.5rem;
-  padding-bottom:1.5rem;
-  margin-bottom:1rem;
+  padding:1.4rem;
+  padding-bottom:1.4rem;
 
   &:hover {
     background: linear-gradient(269.91deg, rgba(255, 255, 255, 0.1) 22.13%, rgba(255, 255, 255, 0) 96.37%);
-    border-right: 5px solid white; 
+    border-right: 5px solid white;
   }
 
   svg {
@@ -52,17 +50,15 @@ const MenuItem = styled.div`
 `;
 
 const UserSection = styled.div`
-  padding-left: 1rem;
   display: flex;
   justify-content: space-between;
   border: 0.5px solid #0B8376;
-  padding-top:1rem;
-  padding-bottom:1rem;
-  padding-right:1rem;
-  margin-right:4rem;
-  margin-left:3rem;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  margin-right:3.2rem;
+  margin-left:2rem;
   border-radius:8px;
-  line-height:2rem;
+  line-height:1.5rem;
 
   .dropdown-icon{
     background: linear-gradient(0deg, #014345, #014345),linear-gradient(180deg, #014345 0%, #012223 100%);
@@ -88,6 +84,10 @@ const UserEmail = styled.p`
 
 
 const Sidebar = () => {
+  const userEmail = "emmanuel@getravenbank.com"
+  const trimLongString = (str, num) => {
+    return str.length > num ? `${str.slice(0, num)}...` : str;
+  }
     return (
         <SidebarContainer>
             <div>
@@ -100,9 +100,9 @@ const Sidebar = () => {
                 </LogoContainer>
 
                 <UserSection>
-                    <div>
+                    <div className='info'>
                         <UserName>Adeeko Emmanuel</UserName>
-                        <UserEmail>emmanuel@getravenbank.com</UserEmail>
+                        <UserEmail>{trimLongString(userEmail, 15)}</UserEmail>
                    </div>
                    {/* <div className='dropdown-icon'>
                       <img src={chevron} className='-icon'/>
@@ -134,7 +134,9 @@ const Sidebar = () => {
                     </MenuItem>
                     <MenuItem>
                         <FiFileText />
-                        Transactions
+                       <div className='link'>
+                    <li><Link to="/transaction">Transaction</Link></li>
+                     </div>
                     </MenuItem>
                     <MenuItem>
                         <FiSettings />

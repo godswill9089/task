@@ -24,7 +24,7 @@ const Balance = () => {
   return (
       <>
         <div className='compo'>
-              <Sidebar/>
+              <Sidebar className="sidebar-balance"/>
               <div className='nav'>
                   <Navbar />
                   <div className='header-component'>
@@ -91,8 +91,11 @@ const Balance = () => {
                             five={<div className="status-type-wrap false false false false false"><span>₦12,000,000.00</span></div>}
                             four={<div className="type-wrap"><span>A₦12,000,000.00</span></div>}
                             onRowClick={function noRefCheck(){}}
-                            one={<div className="type-text-box box"><figure className="img-box" />
-                             <img src={Avatargreen} alt='' className="text"/>Payment
+                            one={<div className="type-text-box">
+                                <div className='box'>
+                                <figure className="img-box" />
+                                <img src={Avatargreen} alt='' className="text size"/>Payment
+                                </div>
                             </div>}
                             three={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                             two="Deposit"
@@ -103,7 +106,7 @@ const Balance = () => {
                             four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                             onRowClick={function noRefCheck(){}}
                             one={<div className="type-text-box box"><figure className="img-box" />
-                             <img src={Avatargreen} alt='' className="text" />Bill Payment
+                             <img src={Avatargreen} alt='' className="text size" />Bill Payment
                             </div>}
                             three={<div className="type-wrap"><span>₦12,00</span></div>}
                             two="Deposit"
@@ -114,7 +117,7 @@ const Balance = () => {
                             four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                             onRowClick={function noRefCheck(){}}
                             one={<div className="type-text-box box"><figure className="img-box" />
-                                <img src={Avatarred} alt='' className="text"/>
+                                <img src={Avatarred} alt='' className="text size"/>
                                 <p>Transfer out</p>
                                 </div>}
                             three={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
@@ -126,7 +129,7 @@ const Balance = () => {
                             four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                             onRowClick={function noRefCheck(){}}
                             one={<div className="type-text-box box"><figure className="img-box" />
-                             <img src={Avatarred} alt='' className="text" />Bill
+                             <img src={Avatarred} alt='' className="text size" />Bill
                             </div>}
                             three={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                             two="Deposit"

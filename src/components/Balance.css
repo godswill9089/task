@@ -1,5 +1,11 @@
+.sidebar-balance{
+  width: 25rem !important;
+}
+
 .compo{
-    display: flex;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  min-height: 100vh;
 }
 .nav{
     width: 100% !important;
@@ -11,8 +17,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 6rem;
-    padding: 0 4.5rem;
+    margin-top: 3rem;
+    padding: 0 2.4rem;
 }
 .header{
     font-size: 16px !important;
@@ -21,18 +27,21 @@
     margin-top: 2rem;
 }
 .form-group__black-light .input-group {
-    width: 40% !important;
-    padding: 1rem !important;
+    width: 35% !important;
 }
 .box{
   display: flex;
   align-items: center;
+  width: 18rem;
 }
 .img-box{
   width: 0rem !important;
 }
 .text{
   margin-right: 1rem !important;
+}
+.size{
+  width: 3rem;
 }
 .filter-button {
     display: flex;
@@ -41,7 +50,7 @@
     border: none;
     border-radius: 8px;
     padding: 1rem 3rem 1rem; 
-    font-size: 16px;
+    font-size: 14px;
     color: #555; 
     width: 100%;
     cursor: pointer;
@@ -58,8 +67,7 @@
   
   .filter-icon {
     margin-left: 8px; 
-    width: 7rem; 
-    height: 2rem;
+    width: 4rem; 
     fill: #555; 
     margin-top: 0.3rem;
   }
@@ -72,7 +80,7 @@
     border-radius: 8px;
     padding: 1rem 3rem 1rem; 
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
     color: #333; 
     cursor: pointer;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
@@ -89,18 +97,18 @@
   
   .download-icon {
     margin-left: 8px;
-    width: 7rem; 
-    height: 2rem;
+    width: 4rem; 
     fill: #333; 
     margin-top: 0.3rem;
   }
 
   .table-body{
     background-color: white;
-    padding: 1rem 0rem 1rem; 
-    margin: 0 4.5rem;
+    padding: .1rem 0rem .1rem; 
+    margin: 0 2.4rem;
     margin-top: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1.1rem;
+    padding-bottom: 3rem;
   }
   .table-top{
     display: flex;
@@ -124,7 +132,6 @@
     border-radius: 4rem !important;
   }
   .table .table-head tr th, .table thead tr th{
-    padding: 3rem 0rem 3rem;
   }
   .table .table-body tr > *:first-child, .table .table-body .table-row > *:first-child, .table tbody tr > *:first-child, .table tbody .table-row > *:first-child{
     padding-left: 1rem !important ;

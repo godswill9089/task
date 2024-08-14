@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 2rem 4rem !important;
     border-radius: 8px;
     box-shadow: none !important;
 }
@@ -39,7 +38,7 @@
     text-decoration: none;
     color: #6c5ce7;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     border: 1px solid #ccc;
     padding: 8px 12px;
     outline: none;
@@ -114,10 +113,10 @@
     background-color: #e0f7fa;
     color: #00695c;
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
