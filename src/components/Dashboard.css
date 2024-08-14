@@ -10,12 +10,16 @@
     line-height: 2.3rem;
 }
 
+.action_bar__warning .cancel {
+    margin-right: 4px !important;
+}
+
 .header-items{
     line-height: 2.6rem;
 }
 
 .action_bar__warning .cancel{
-    margin-right: 1rem !important;
+    margin-right: 4px !important;
 }
 
 .action_bar_show{
@@ -64,6 +68,9 @@ font-family: "Montserrat", sans-serif !important;
     overflow-y: scroll;
 }
 
+.transaction-cards-wrapper{
+    width: 100%;
+}
 
 .transactions::-webkit-scrollbar {
     display: none;

@@ -11,6 +11,8 @@ import Pagination from './Pagination';
 import Avatargreen from '../assets/Avartars.png';
 import Avatarred from '../assets/Avartars (1).png';
 import report from '../assets/Icon (2).png'
+import badge from '../assets/Badge.png';
+import failed from '../assets/Badge (2).png'
 
 const Transaction = () => {
     const [currentPage, setCurrentPage] = useState(1);
@@ -97,7 +99,11 @@ const Transaction = () => {
                     ]}
                     >
                     <RavenTableRow
-                        five={<div className="status-type-wrap false false false false false"><span>₦12,000,000.00</span></div>}
+                        five={<div className="status-type-wrap false false false false false">
+                             <figure>
+                                <img src={badge} alt=''></img>
+                            </figure>
+                        </div>}
                         four={<div className="type-wrap"><span>A₦12,000,000.00</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
@@ -108,7 +114,11 @@ const Transaction = () => {
                         six="5 Sept, 2022 • 5:48PM"
                     />
                     <RavenTableRow
-                        five={<div className="status-type-wrap false false status-type-wrap-fail false false"><span>₦12,000,000.00</span></div>}
+                        five={<div className="status-type-wrap false false status-type-wrap-fail false false">
+                             <figure>
+                                <img src={failed} alt=''></img>
+                            </figure>
+                        </div>}
                         four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
@@ -119,7 +129,11 @@ const Transaction = () => {
                          six="5 Sept, 2022 • 5:48PM"
                     />
                     <RavenTableRow
-                        five={<div className="status-type-wrap false false false false status-type-wrap-pending"><span>₦12,000,000.00</span></div>}
+                        five={<div className="status-type-wrap false false false false status-type-wrap-pending">
+                            <figure>
+                                <img src={badge} alt=''></img>
+                            </figure>
+                        </div>}
                         four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
@@ -130,7 +144,11 @@ const Transaction = () => {
                          six="5 Sept, 2022 • 5:48PM"
                     />
                     <RavenTableRow
-                        five={<div className="status-type-wrap false false false false false"><span>₦12,000,000.00</span></div>}
+                        five={<div className="status-type-wrap false false false false false">
+                             <figure>
+                                <img src={badge} alt=''></img>
+                            </figure>
+                        </div>}
                         four={<div className="type-wrap"><span>₦12,000,000.00</span></div>}
                         onRowClick={function noRefCheck(){}}
                         one={<div className="type-text-box box"><figure className="img-box" />
