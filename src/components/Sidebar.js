@@ -102,7 +102,7 @@ const Sidebar = () => {
                 <UserSection>
                     <div className='info'>
                         <UserName>Adeeko Emmanuel</UserName>
-                        <UserEmail>{trimLongString(userEmail, 15)}</UserEmail>
+                        <UserEmail>{trimLongString(userEmail, 18)}</UserEmail>
                    </div>
                    {/* <div className='dropdown-icon'>
                       <img src={chevron} className='-icon'/>
