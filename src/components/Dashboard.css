@@ -143,10 +143,9 @@ font-family: "Montserrat", sans-serif !important;
 }
 
  .transaction-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
     flex-wrap: wrap;
     padding: 2.4rem 2.3rem 2.4rem;
     margin-top: 1rem;

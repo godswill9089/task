@@ -19,8 +19,8 @@ width:20rem;
 const LogoContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 2rem;
-  margin-bottom: 1.2rem;
+  margin-left: 2.4rem;
+  margin-bottom: 3rem;
   align-items: center;
 
 `;
@@ -28,7 +28,7 @@ const LogoContainer = styled.div`
 const MenuContainer = styled.div`
   flex-grow: 1;
   margin-top:1.5rem;
-  padding-left:.5rem;
+ margin-left: 1.3rem;
 `;
 
 const MenuItem = styled.div`
@@ -56,9 +56,10 @@ const UserSection = styled.div`
   padding-top:.5rem;
   padding-bottom:.5rem;
   margin-right:3.2rem;
-  margin-left:2rem;
-  border-radius:8px;
+  margin-left:2.8rem;
+  border-radius:.5rem;
   line-height:1.5rem;
+  margin-bottom:2rem;
 
   .dropdown-icon{
     background: linear-gradient(0deg, #014345, #014345),linear-gradient(180deg, #014345 0%, #012223 100%);

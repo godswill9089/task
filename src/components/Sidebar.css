@@ -21,7 +21,7 @@
 .line{
     width: 2%;
     margin-left: 1rem;
-    height: 40px;
+    height: 3rem;
     border-right: 1px solid #9BE5C9
 }
 
@@ -38,11 +38,13 @@
 
 .get-started h1{
     font-size: 12px;
-    margin-left: 2rem;
+    margin-left: 2.8rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .dasbord-text h1{
     font-size: 12px;
-    margin-left: 2rem;
+    margin-left: 2.8rem;
+    margin-bottom: 2rem;
 }

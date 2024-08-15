@@ -61,14 +61,14 @@ const Transaction = () => {
                     </figure>
                 </button>
                 </div>
-                <div className='report'>
+                {/* <div className='report'>
                     <button className='report-button'>
                         <span>Report</span>
                         <figure>
                             <img src={report} alt='' className='report-icon' />
                         </figure>
                     </button>
-                </div>
+                </div> */}
                <div className='download-btn'> 
                <button className="export-button">
                     <span>Export</span>

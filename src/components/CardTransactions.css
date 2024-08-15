@@ -1,12 +1,12 @@
 .card-transactions {
-    
     min-height: 12rem;
-    
-    height: 16rem;
+    height: 17em;
     border-radius: 1.2rem;
     background: #FFFFFF;
     padding: 1.6rem;
-    border: 1px solid #EEEEEE
+    border: 1px solid #EEEEEE;
+    margin-top: 2rem;
+    width: 30rem;
 }
 
 .card-transactions .title {
