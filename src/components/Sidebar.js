@@ -148,7 +148,7 @@ const Sidebar = () => {
                     <MenuItem>
                         <FiCreditCard />
                         <div className='link'>
-                    <li><Link to="/card">CardDetails</Link></li>
+                    <li><Link to="/card">Card Details</Link></li>
                      </div>
                     </MenuItem>
                     <MenuItem>
