@@ -1,0 +1,56 @@
+.main-con{
+    padding: 3rem 3rem 2.4rem;
+    display: flex;
+    gap: 3rem;
+    background-color: white;
+    margin: 3rem;
+}
+
+.main-table{
+    background-color: white;
+    border: 1px solid #E5E6E6;
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.payment-header{
+    margin-top: 2rem;
+}
+
+.sidebar {
+    width: 24rem;
+    padding: 20px;
+    background-color: #F3F4F6;
+    height: 70vh;
+    border-radius: .5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+    background-color: #FFFFFF;
+    color: #064663;
+    font-weight: 500;
+}
+.pay{
+   width: 4rem;
+}
+.id{
+    display: flex;
+    align-items: center;
+    width: 14rem;
+}

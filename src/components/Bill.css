@@ -1,0 +1,246 @@
+.top{
+    margin-top: 0rem !important;
+}
+.buy-btn{
+    width: 100% !important;
+}
+.loader-md {
+    padding: 1.4rem 2.4rem !important; 
+}
+.bill-item{
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 2rem !important;
+    gap: 1rem;
+}
+.FaChevronLeft{
+    font-size: 1rem;
+    background-color: #00796b;
+    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50rem;
+    text-align: center;
+    color: white;
+}
+.con{
+   
+}
+
+/* Container */
+.container {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+  }
+  
+  /* Header */
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .back-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .header-text h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header-text p {
+    color: #777;
+  }
+  
+  /* Main Content */
+  
+  /* Form */
+  .data-purchase-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1.3rem;
+  }
+  
+  .input-group label {
+    font-weight: 600;
+  }
+  
+  .mobile-number-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .country-code {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #mobile-number {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .use-business-number {
+    align-self: flex-start;
+    padding: 8px 12px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  
+  /* Network Providers */
+  .network-providers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+  }
+  
+  .provider-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    border: 0.8px solid #E5E6E6;
+    padding: 1rem;
+    border-radius: .5rem;
+  }
+  .provider-btn:hover{
+    background: #E9F5FF;
+  }
+  
+  .provider-btn img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Data Plan */
+  .data-plan {
+    padding: 10px;
+    border-radius: .5rem;
+    border: 1px solid #ddd;
+    background: #F7F8F7;
+    outline: none;
+  }
+  
+  .balance {
+    float: right;
+    color: #00796b;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .add-recipient {
+    color: #00796b;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: start;
+    color: #755AE2;
+  }
+  
+  .buy-data-btn {
+    padding: 12px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer-nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #00796b;
+  }
+  
+  .support-btn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .phone-number-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid  #80808059;
+    border-radius: .5rem; 
+    overflow: hidden; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+  }
+  
+  .country-code-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white; 
+    border-right: 1px solid #ddd; 
+  }
+  
+  .country-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Space between the icon and the dropdown */
+  }
+  
+  .country-code-select {
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #333;
+    appearance: none;
+    outline: none;
+  }
+  
+  .phone-number-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    background: none;
+  }
+  
+  .phone-number-input::placeholder {
+    color: #aaa; 
+  }
+  
+  

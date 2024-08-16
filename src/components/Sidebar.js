@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import './Sidebar.css'
 import logo from '../assets/ravengreenlogo.png'
-import { FiHome, FiSettings, FiUser, FiFileText } from 'react-icons/fi';
+import { FiHome, FiSettings, FiUser, FiFileText, FiCreditCard, FiBatteryCharging, FiPower} from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const SidebarContainer = styled.div`
@@ -57,7 +57,7 @@ const UserSection = styled.div`
   padding-bottom:.5rem;
   margin-right:3.2rem;
   margin-left:2.8rem;
-  border-radius:.5rem;
+  border-radius:.4rem;
   line-height:1.5rem;
   margin-bottom:2rem;
 
@@ -140,8 +140,22 @@ const Sidebar = () => {
                      </div>
                     </MenuItem>
                     <MenuItem>
-                        <FiSettings />
-                        Settings
+                        <FiBatteryCharging/>
+                        <div className='link'>
+                    <li><Link to="/bill">Buy Data</Link></li>
+                     </div>
+                    </MenuItem>
+                    <MenuItem>
+                        <FiCreditCard />
+                        <div className='link'>
+                    <li><Link to="/card">CardDetails</Link></li>
+                     </div>
+                    </MenuItem>
+                    <MenuItem>
+                        <FiPower />
+                        <div className='link'>
+                    <li><Link to="/payment">Bill Payment</Link></li>
+                     </div>
                     </MenuItem>
                 </MenuContainer>
             </div>

@@ -17,7 +17,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3rem;
     padding: 0 2.4rem;
 }
 .input-group .form-input {
@@ -31,6 +30,7 @@
 }
 .form-group__black-light .input-group {
     width: 35% !important;
+    border-radius: .4rem !important;
 }
 .box{
   display: flex;
@@ -51,7 +51,7 @@
     align-items: center;
     background-color: #f7f7f7;
     border: none;
-    border-radius: 8px;
+    border-radius: .4rem;
     padding: 1rem 3rem 1rem; 
     font-size: 14px;
     color: #555; 
@@ -80,7 +80,7 @@
     align-items: center;
     background-color: #f7f7f7;
     border: none;
-    border-radius: 8px;
+    border-radius: .4rem;
     padding: 1rem 3rem 1rem; 
     width: 100%;
     font-size: 14px;
@@ -110,7 +110,7 @@
     padding: .1rem 0rem .1rem; 
     margin: 0 2.4rem;
     margin-top: 2rem;
-    border-radius: 1.1rem;
+    border-radius: .5rem;
     padding-bottom: 3rem;
   }
   .table-top{
