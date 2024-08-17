@@ -31,9 +31,12 @@
     font-size: 1.2rem;
 }
 
+.info-con{
+   
+}
 .info{
     width: 100%;
-    padding-left: 1.1rem;
+    padding: .1rem 1rem .1rem;
 }
 
 .get-started h1{

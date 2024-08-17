@@ -55,8 +55,7 @@ const UserSection = styled.div`
   border: 0.5px solid #0B8376;
   padding-top:.5rem;
   padding-bottom:.5rem;
-  margin-right:3.2rem;
-  margin-left:2.8rem;
+  margin:2.8rem;
   border-radius:.4rem;
   line-height:1.5rem;
   margin-bottom:2rem;
@@ -101,9 +100,11 @@ const Sidebar = () => {
                 </LogoContainer>
 
                 <UserSection>
-                    <div className='info'>
+                   <div className='info-con'>
+                   <div className='info'>
                         <UserName>Adeeko Emmanuel</UserName>
                         <UserEmail>{trimLongString(userEmail, 18)}</UserEmail>
+                   </div>
                    </div>
                    {/* <div className='dropdown-icon'>
                       <img src={chevron} className='-icon'/>

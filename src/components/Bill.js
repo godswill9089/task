@@ -17,6 +17,12 @@ import { RavenButton, RavenInputField } from '@ravenpay/raven-bank-ui';
 
 
 const Bill = () => {
+    const data = [
+        {label: "Mtn", value:"trye"}, 
+        {label: "Glo", value:"trye"},
+        {label: "9Mobile", value:"trye"},
+        {label: "Airtel", value:"trye"},
+    ]
   return (
     <>
         <div className='compo'>
@@ -35,8 +41,8 @@ const Bill = () => {
                          <p>Welcome back to your dashboard, here’s an overview</p>
                          </div>
                       </div>
-                        <figure className='back-btn'>
-                            <img src={cancel} alt="" />
+                        <figure className='back-img'>
+                            <img src={cancel} alt="" className='back-img'/>
                         </figure>
                     </div>
                   <div className="container">
@@ -52,7 +58,6 @@ const Bill = () => {
                     <RavenInputField
                         color="black-light"
                         labelClassName="my_custom_class"
-                        labelColor="purple-light"
                         onActionClick={function noRefCheck(){}}
                         onChange={function noRefCheck(){}}
                         onComplete={function noRefCheck(){}}
@@ -61,6 +66,8 @@ const Bill = () => {
                         onSizeError={function noRefCheck(){}}
                         onSubmit={function noRefCheck(){}}
                         type="phone"
+                        placeholder='Number'
+                        className='Number'
                         />
                     <div className="input">
                         <label className='label'>Select Network Provider</label>
@@ -75,18 +82,20 @@ const Bill = () => {
                     <div className="input plan">
                         <label>Data Plan <span className="balance">Bal: ₦12,000,000.00</span></label>
                         <RavenInputField
-                            color="black-light"
-                            labelClassName="my_custom_class"
-                            labelColor="purple-light"
-                            onActionClick={function noRefCheck(){}}
-                            onChange={function noRefCheck(){}}
-                            onComplete={function noRefCheck(){}}
-                            onCountDownComplete={function noRefCheck(){}}
-                            onRemoveFile={function noRefCheck(){}}
-                            onSizeError={function noRefCheck(){}}
-                            onSubmit={function noRefCheck(){}}
-                            type="select"
-                            />
+                        color="black-light"
+                        labelClassName="my_custom_class"
+                        labelColor="purple-light"
+                        onActionClick={function noRefCheck(){}}
+                        onChange={function noRefCheck(){}}
+                        onComplete={function noRefCheck(){}}
+                        onCountDownComplete={function noRefCheck(){}}
+                        onRemoveFile={function noRefCheck(){}}
+                        onSizeError={function noRefCheck(){}}
+                        onSubmit={function noRefCheck(){}}
+                        type="select"
+                        placeholder='Select Data Plan'
+                        select={data}
+                        />
                     </div>
 
                     <button className="add-recipient">+ Add New Recipient</button>

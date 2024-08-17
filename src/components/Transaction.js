@@ -51,7 +51,7 @@ const Transaction = () => {
                 onSubmit={function noRefCheck(){}}
                 type="search"
                 placeholder='Search'
-                className='search'
+                 className='field'
                 />
                <div className='filter'>
                 <button className="filter-button">

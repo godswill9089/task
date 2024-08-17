@@ -36,7 +36,7 @@ const Balance = () => {
                   </div>
                   <div className='table-body'>
                   <div className='table-top'>
-                 <RavenInputField
+                    <RavenInputField
                     color="black-light"
                     labelClassName="my_custom_class"
                     labelColor="purple-light"
@@ -49,6 +49,7 @@ const Balance = () => {
                     onSubmit={function noRefCheck(){}}
                     type="search"
                     placeholder='Search'
+                    className='field'
                     />
                    <div className='filter'>
                     <button className="filter-button">

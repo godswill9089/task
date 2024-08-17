@@ -12,6 +12,7 @@
     background-color: white;
     padding: 1rem;
     border-radius: .5rem;
+    cursor: pointer;
 }
 /* src/components/CardDetails/CardDetails.css */
 
@@ -113,22 +114,23 @@
 }
 
 .card-info-table td {
-    padding: 12px 0;
+    padding: 1.5rem 0;
     font-size: 16px;
     color: #333;
     font-size: 1.4rem;
     border-bottom: 1px solid #E5E6E6;
 }
-
 .card-info-table td:first-child {
     color: #555;
     border-bottom: 1px solid #E5E6E6;
     padding-left: 2rem;
     font-size: 1.4rem;
 }
-
+.tr td{ 
+    padding-top: .8rem !important;
+    padding-bottom: .9rem !important;
+}
 .card-brand {
-    display: flex;
     align-items: center;
 }
 

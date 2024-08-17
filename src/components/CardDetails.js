@@ -59,44 +59,44 @@ const CardDetails = ({ label, isActive }) => {
                         <h2>12345****6849</h2>
                     </div>
                     <div className="card-info-container">
-            <table className="card-info-table">
-                <tbody>
+                <table className="card-info-table">
+                <tbody className="tb">
                     <tr>
                         <td>Card Name</td>
                         <td>Daniel Adebowale</td>
                     </tr>
                     <tr>
-                        <td>Card Type</td>
+                        <td className="tr">Card Type</td>
                         <td>Virtual</td>
                     </tr>
-                    <tr>
-                        <td>Card Brand</td>
+                    <tr className="tr">
+                        <td className="tr">Card Brand</td>
                         <td className="card-brand">
                             <span className="brand-logo">AD</span> VISA
                         </td>
                     </tr>
                     <tr>
-                        <td>Card CVV</td>
+                        <td className="tr">Card CVV</td>
                         <td>123</td>
                     </tr>
                     <tr>
-                        <td>Currency</td>
+                        <td className="tr">Currency</td>
                         <td>NGN</td>
                     </tr>
                     <tr>
-                        <td>Balance</td>
+                        <td className="tr">Balance</td>
                         <td>₦250,000.00</td>
                     </tr>
                     <tr>
-                        <td>Date Created</td>
+                        <td className="tr">Date Created</td>
                         <td>Jan, 6 2023, 5:48PM</td>
                     </tr>
                     <tr>
-                        <td>Expiry Date</td>
+                        <td className="tr">Expiry Date</td>
                         <td>12 / 25</td>
                     </tr>
                     <tr>
-                        <td>Customer Email</td>
+                        <td className="tr">Customer Email</td>
                         <td>emmy4sure.web@gmail.com</td>
                     </tr>
                 </tbody>
