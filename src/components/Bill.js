@@ -11,7 +11,7 @@ import mtn from "../assets/Ellipse 625.png";
 import airtel from '../assets/Ellipse 625 (1).png';
 import glo from '../assets/Ellipse 625 (2).png';
 import etisalat from '../assets/Ellipse 625 (3).png';
-import { RavenButton } from '@ravenpay/raven-bank-ui';
+import { RavenButton, RavenInputField } from '@ravenpay/raven-bank-ui';
 
 
 
@@ -49,30 +49,21 @@ const Bill = () => {
                     </header>
                 <main className="main-content">
                     <form className="data-purchase-form">
-                    <div className="input">
-                        <label htmlFor="mobile-number">Mobile Number</label>
-                        <div className="phone-number-container">
-                    <div className="country-code-container">
-                        <img
-                        src={NigeriaFlag}
-                        alt="Country Flag"
-                        className="country-icon"
+                    <RavenInputField
+                        color="black-light"
+                        labelClassName="my_custom_class"
+                        labelColor="purple-light"
+                        onActionClick={function noRefCheck(){}}
+                        onChange={function noRefCheck(){}}
+                        onComplete={function noRefCheck(){}}
+                        onCountDownComplete={function noRefCheck(){}}
+                        onRemoveFile={function noRefCheck(){}}
+                        onSizeError={function noRefCheck(){}}
+                        onSubmit={function noRefCheck(){}}
+                        type="phone"
                         />
-                        <select className="country-code-select">
-                        <option value="+234">+234</option>
-                        </select>
-                    </div>
-                    <input
-                        type="tel"
-                        className="phone-number-input"
-                        placeholder="8066701121"
-                    />
-                    </div>
-                        <button className="use-business-number">Use my Business Number</button>
-                    </div>
-
                     <div className="input">
-                        <label>Select Network Provider</label>
+                        <label className='label'>Select Network Provider</label>
                         <div className="network-providers">
                         <button type="button" className="provider-btn"><img src={mtn} alt="MTN" /></button>
                         <button type="button" className="provider-btn"><img src={airtel} alt="Airtel" /></button>
@@ -81,11 +72,21 @@ const Bill = () => {
                         </div>
                     </div>
 
-                    <div className="input">
+                    <div className="input plan">
                         <label>Data Plan <span className="balance">Bal: ₦12,000,000.00</span></label>
-                        <select className="data-plan">
-                        <option value="" disabled selected>Select Data Plan</option>
-                        </select>
+                        <RavenInputField
+                            color="black-light"
+                            labelClassName="my_custom_class"
+                            labelColor="purple-light"
+                            onActionClick={function noRefCheck(){}}
+                            onChange={function noRefCheck(){}}
+                            onComplete={function noRefCheck(){}}
+                            onCountDownComplete={function noRefCheck(){}}
+                            onRemoveFile={function noRefCheck(){}}
+                            onSizeError={function noRefCheck(){}}
+                            onSubmit={function noRefCheck(){}}
+                            type="select"
+                            />
                     </div>
 
                     <button className="add-recipient">+ Add New Recipient</button>
